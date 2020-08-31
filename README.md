@@ -2,6 +2,8 @@
 
 ![Build and Deploy](https://github.com/SaschaGoernert/calendar-of-events/workflows/Build%20and%20Deploy/badge.svg)
 
+The project is avaliable on https://saschagoernert.github.io/calendar-of-events/
+
 ## Project setup
 ```
 yarn install
