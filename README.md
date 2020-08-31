@@ -1,5 +1,7 @@
 # calendar-of-events
 
+![Build and Deploy](https://github.com/SaschaGoernert/calendar-of-events/workflows/Build%20and%20Deploy/badge.svg)
+
 ## Project setup
 ```
 yarn install
