@@ -4,7 +4,7 @@
     <CalendarEntry />
     <div class="container mt-3">
       <div class="row">
-        <div class="col-6 offset-3">
+        <div class="col mobile-view">
           <ButtonEmptyCalendar />
         </div>
       </div>
@@ -23,4 +23,23 @@ export default {
 };
 </script>
 
+<style scoped>
 
+@media (max-width: 600px) {
+  .mobile-view {
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+}
+
+@media (min-width: 600px) {
+  .mobile-view {
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0;
+  }
+}
+
+</style>
