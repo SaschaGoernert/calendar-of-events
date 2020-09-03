@@ -1,7 +1,7 @@
 <template>
   <div class="container mt-5">
     <div class="row">
-      <div class="col-6 offset-3">
+      <div class="mobile-view">
         <div class="card">
           <div class="card-header text-center bg-vue">
             <h5>
@@ -75,7 +75,25 @@ export default {
 }
 
 .sqaure {
-  height: 40px;
-  width: 40px;
+  height: 10rem;
+  width: 10rem;
+}
+
+@media (max-width: 600px) {
+  .mobile-view {
+    width: 100%;
+  }
+
+  .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 600px) {
+  .mobile-view {
+    width: 50%;
+    margin-left: 25%;
+  }
 }
 </style>
